@@ -1,0 +1,19 @@
+Adding user mhs9 to group authjobs
+~/MPI/P2draft/MPI ~
+NUM_THREADS = 6
+Avg time taken to cross MCS barrier: 70.116480192 us
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+NUM_THREADS = 6
+Time taken to cross Dessimination barrier: 44.366518656 us 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+NUM_THREADS = 6
+Before Inbuilt Barrier from thread 0 of 6
+Before Inbuilt Barrier from thread 2 of 6
+Before Inbuilt Barrier from thread 1 of 6
+Before Inbuilt Barrier from thread 5 of 6
+Before Inbuilt Barrier from thread 3 of 6
+Before Inbuilt Barrier from thread 4 of 6
+Time taken to cross Inbuilt barrier: 42.816122373 us
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+~
+Removing user mhs9 from group authjobs

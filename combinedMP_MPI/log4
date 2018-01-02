@@ -1,0 +1,37 @@
+Before Dessimination Barrier from thread 0 of 4
+Before Dessimination Barrier from thread 2 of 4
+Before Dessimination Barrier from thread 1 of 4
+Before Dessimination Barrier from thread 3 of 4
+ProcessID=0	ThreadCount	diffMP
+ProcessID=0	2	641
+ProcessID=0	4	1185
+ProcessID=0	6	1734
+ProcessID=0	8	2048
+ProcessID=0	10	2451
+ProcessID=0	12	2700
+After Dessimination Barrier from process 0 of 4, time taken: 0.011270203 
+Time taken to cross Dessimination barrier: 0.011270054 
+ProcessID=3	ThreadCount	diffMP
+ProcessID=3	2	217
+ProcessID=3	4	1133
+ProcessID=3	6	1570
+ProcessID=3	8	1896
+ProcessID=3	10	2286
+ProcessID=3	12	2534
+After Dessimination Barrier from process 3 of 4, time taken: 0.011269896 
+ProcessID=2	ThreadCount	diffMP
+ProcessID=2	2	217
+ProcessID=2	4	1128
+ProcessID=2	6	1552
+ProcessID=2	8	1900
+ProcessID=2	10	2297
+ProcessID=2	12	2530
+After Dessimination Barrier from process 2 of 4, time taken: 0.011270057 
+ProcessID=1	ThreadCount	diffMP
+ProcessID=1	2	646
+ProcessID=1	4	1189
+ProcessID=1	6	1777
+ProcessID=1	8	2075
+ProcessID=1	10	2457
+ProcessID=1	12	2707
+After Dessimination Barrier from process 1 of 4, time taken: 0.011270062 

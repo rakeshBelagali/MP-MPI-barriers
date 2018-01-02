@@ -1,0 +1,19 @@
+combined Barrier
+
+build:
+	make
+
+clean:
+	make clean
+
+run: qsub ./wrapper_comb_2.sh    //This will run 2 MPI processes. Threads varied from 2 to 12
+	 qsub ./wrapper_comb_4.sh	 //This will run 4 MPI processes. Threads varied from 2 to 12
+	 qsub ./wrapper_comb_6.sh	 //This will run 6 MPI processes. Threads varied from 2 to 12
+	 qsub ./wrapper_comb_8.sh	 //This will run 8 MPI processes. Threads varied from 2 to 12
+
+output:
+	log2 - output of wrapper_comb_2
+	log4 - output of wrapper_comb_4
+	log6 - output of wrapper_comb_6
+	log8 - output of wrapper_comb_8
+	

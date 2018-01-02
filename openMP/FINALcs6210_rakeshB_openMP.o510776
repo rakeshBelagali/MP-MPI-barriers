@@ -1,0 +1,504 @@
+Adding user rbelagali3 to group authjobs
+~/cs6210/project-2/openMP/openMP_temp ~
+---------------BEGIN OF openMP_MCS-------------
+
+=============================================
+openMP_MCS started with threads 2
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 2
+Before Barrier from thread 1 of 2
+After Barrier from thread 1 of 2
+After Barrier from thread 0 of 2
+Back in the serial section again
+diffs of 0 = 6713504650
+diffs of 1 = 6713500640
+mcsBarrier:: main:: average diff taken = 671
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 3
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 3
+Before Barrier from thread 1 of 3
+Before Barrier from thread 2 of 3
+After Barrier from thread 2 of 3
+After Barrier from thread 1 of 3
+After Barrier from thread 0 of 3
+Back in the serial section again
+diffs of 0 = 7767842338
+diffs of 1 = 7767840935
+diffs of 2 = 7767836137
+mcsBarrier:: main:: average diff taken = 776
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 4
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 4
+Before Barrier from thread 1 of 4
+Before Barrier from thread 2 of 4
+Before Barrier from thread 3 of 4
+After Barrier from thread 2 of 4
+After Barrier from thread 3 of 4
+After Barrier from thread 0 of 4
+After Barrier from thread 1 of 4
+Back in the serial section again
+diffs of 0 = 11538806005
+diffs of 1 = 11538804050
+diffs of 2 = 11538801587
+diffs of 3 = 11538797024
+mcsBarrier:: main:: average diff taken = 1153
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 5
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 5
+Before Barrier from thread 1 of 5
+Before Barrier from thread 2 of 5
+Before Barrier from thread 3 of 5
+Before Barrier from thread 4 of 5
+After Barrier from thread 2 of 5
+After Barrier from thread 4 of 5
+After Barrier from thread 1 of 5
+After Barrier from thread 0 of 5
+After Barrier from thread 3 of 5
+Back in the serial section again
+diffs of 0 = 12774499557
+diffs of 1 = 12774498097
+diffs of 2 = 12774495180
+diffs of 3 = 12774492965
+diffs of 4 = 12774488530
+mcsBarrier:: main:: average diff taken = 1277
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 6
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 6
+Before Barrier from thread 1 of 6
+Before Barrier from thread 2 of 6
+Before Barrier from thread 3 of 6
+Before Barrier from thread 4 of 6
+Before Barrier from thread 5 of 6
+After Barrier from thread 1 of 6
+After Barrier from thread 2 of 6
+After Barrier from thread 4 of 6
+After Barrier from thread 0 of 6
+After Barrier from thread 5 of 6
+After Barrier from thread 3 of 6
+Back in the serial section again
+diffs of 0 = 13390536380
+diffs of 1 = 13390535555
+diffs of 2 = 13390532915
+diffs of 3 = 13390530299
+diffs of 4 = 13390528615
+diffs of 5 = 13390523780
+mcsBarrier:: main:: average diff taken = 1339
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 7
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 7
+Before Barrier from thread 1 of 7
+Before Barrier from thread 2 of 7
+Before Barrier from thread 3 of 7
+Before Barrier from thread 4 of 7
+Before Barrier from thread 5 of 7
+Before Barrier from thread 6 of 7
+After Barrier from thread 2 of 7
+After Barrier from thread 3 of 7
+After Barrier from thread 6 of 7
+After Barrier from thread 5 of 7
+After Barrier from thread 0 of 7
+After Barrier from thread 1 of 7
+After Barrier from thread 4 of 7
+Back in the serial section again
+diffs of 0 = 15381753651
+diffs of 1 = 15381752131
+diffs of 2 = 15381749666
+diffs of 3 = 15381747660
+diffs of 4 = 15381745022
+diffs of 5 = 15381742496
+diffs of 6 = 15381737996
+mcsBarrier:: main:: average diff taken = 1538
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_MCS started with threads 8
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 8
+Before Barrier from thread 1 of 8
+Before Barrier from thread 2 of 8
+Before Barrier from thread 3 of 8
+Before Barrier from thread 4 of 8
+Before Barrier from thread 5 of 8
+Before Barrier from thread 6 of 8
+Before Barrier from thread 7 of 8
+After Barrier from thread 0 of 8
+After Barrier from thread 6 of 8
+After Barrier from thread 5 of 8
+After Barrier from thread 3 of 8
+After Barrier from thread 2 of 8
+After Barrier from thread 4 of 8
+After Barrier from thread 7 of 8
+After Barrier from thread 1 of 8
+Back in the serial section again
+diffs of 0 = 20442384688
+diffs of 1 = 20442383718
+diffs of 2 = 20442381033
+diffs of 3 = 20442379466
+diffs of 4 = 20442376665
+diffs of 5 = 20442373994
+diffs of 6 = 20442371932
+diffs of 7 = 20442367455
+mcsBarrier:: main:: average diff taken = 2044
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NUM_THREADS	diff
+0		0
+1		0
+2		671
+3		776
+4		1153
+5		1277
+6		1339
+7		1538
+8		2044
+
+---------------END OF openMP_MCS-------------
+---------------BEGIN OF openMP_sense-------------
+=============================================
+openMP_sense started with threads 2
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 2
+Before Barrier from thread 1 of 2
+After Barrier from thread 1 of 2
+After Barrier from thread 0 of 2
+Back in the serial section again
+diffs of 0 = 2891516855
+diffs of 1 = 2891511464
+senseBarrier:: main:: average diff taken = 289
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 3
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 3
+Before Barrier from thread 1 of 3
+Before Barrier from thread 2 of 3
+After Barrier from thread 0 of 3
+After Barrier from thread 2 of 3
+After Barrier from thread 1 of 3
+Back in the serial section again
+diffs of 0 = 4572415524
+diffs of 1 = 4572413944
+diffs of 2 = 4572409701
+senseBarrier:: main:: average diff taken = 457
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 4
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 4
+Before Barrier from thread 1 of 4
+Before Barrier from thread 2 of 4
+Before Barrier from thread 3 of 4
+After Barrier from thread 1 of 4
+After Barrier from thread 3 of 4
+After Barrier from thread 0 of 4
+After Barrier from thread 2 of 4
+Back in the serial section again
+diffs of 0 = 5612018019
+diffs of 1 = 5612015753
+diffs of 2 = 5612014322
+diffs of 3 = 5612009112
+senseBarrier:: main:: average diff taken = 561
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 5
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 5
+Before Barrier from thread 1 of 5
+Before Barrier from thread 2 of 5
+Before Barrier from thread 3 of 5
+Before Barrier from thread 4 of 5
+After Barrier from thread 1 of 5
+After Barrier from thread 0 of 5
+After Barrier from thread 2 of 5
+After Barrier from thread 3 of 5
+After Barrier from thread 4 of 5
+Back in the serial section again
+diffs of 0 = 6676313559
+diffs of 1 = 6676311243
+diffs of 2 = 6676309603
+diffs of 3 = 6676307004
+diffs of 4 = 6676302543
+senseBarrier:: main:: average diff taken = 667
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 6
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 6
+Before Barrier from thread 1 of 6
+Before Barrier from thread 2 of 6
+Before Barrier from thread 3 of 6
+Before Barrier from thread 4 of 6
+Before Barrier from thread 5 of 6
+After Barrier from thread 5 of 6
+After Barrier from thread 2 of 6
+After Barrier from thread 3 of 6
+After Barrier from thread 0 of 6
+After Barrier from thread 1 of 6
+After Barrier from thread 4 of 6
+Back in the serial section again
+diffs of 0 = 7472580404
+diffs of 1 = 7472578576
+diffs of 2 = 7472576499
+diffs of 3 = 7472573875
+diffs of 4 = 7472571732
+diffs of 5 = 7472566465
+senseBarrier:: main:: average diff taken = 747
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 7
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 7
+Before Barrier from thread 1 of 7
+Before Barrier from thread 2 of 7
+Before Barrier from thread 3 of 7
+Before Barrier from thread 4 of 7
+Before Barrier from thread 5 of 7
+Before Barrier from thread 6 of 7
+After Barrier from thread 2 of 7
+After Barrier from thread 5 of 7
+After Barrier from thread 1 of 7
+After Barrier from thread 3 of 7
+After Barrier from thread 0 of 7
+After Barrier from thread 6 of 7
+After Barrier from thread 4 of 7
+Back in the serial section again
+diffs of 0 = 8726432177
+diffs of 1 = 8726430353
+diffs of 2 = 8726428020
+diffs of 3 = 8726425584
+diffs of 4 = 8726423335
+diffs of 5 = 8726420710
+diffs of 6 = 8726416472
+senseBarrier:: main:: average diff taken = 872
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_sense started with threads 8
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 8
+Before Barrier from thread 1 of 8
+Before Barrier from thread 2 of 8
+Before Barrier from thread 3 of 8
+Before Barrier from thread 4 of 8
+Before Barrier from thread 5 of 8
+Before Barrier from thread 6 of 8
+Before Barrier from thread 7 of 8
+After Barrier from thread 5 of 8
+After Barrier from thread 0 of 8
+After Barrier from thread 1 of 8
+After Barrier from thread 4 of 8
+After Barrier from thread 2 of 8
+After Barrier from thread 7 of 8
+After Barrier from thread 3 of 8
+After Barrier from thread 6 of 8
+Back in the serial section again
+diffs of 0 = 9390509845
+diffs of 1 = 9390507905
+diffs of 2 = 9390505842
+diffs of 3 = 9390503351
+diffs of 4 = 9390501116
+diffs of 5 = 9390498201
+diffs of 6 = 9390496222
+diffs of 7 = 9390491116
+senseBarrier:: main:: average diff taken = 939
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NUM_THREADS	diff
+0		0
+1		0
+2		289
+3		457
+4		561
+5		667
+6		747
+7		872
+8		939
+---------------END OF openMP_sense-------------
+---------------BEGIN OF openMP_builtIn-------------
+=============================================
+openMP_builtIn started with threads 2
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 2
+Before Barrier from thread 1 of 2
+After Barrier from thread 1 of 2
+After Barrier from thread 0 of 2
+Back in the serial section again
+diffs of 0 = 4121542699
+diffs of 1 = 4121535242
+senseBarrier:: main:: average diff taken = 412
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 3
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 3
+Before Barrier from thread 1 of 3
+Before Barrier from thread 2 of 3
+After Barrier from thread 2 of 3
+After Barrier from thread 1 of 3
+After Barrier from thread 0 of 3
+Back in the serial section again
+diffs of 0 = 4560533305
+diffs of 1 = 4560531237
+diffs of 2 = 4560526856
+senseBarrier:: main:: average diff taken = 456
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 4
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 4
+Before Barrier from thread 1 of 4
+Before Barrier from thread 2 of 4
+Before Barrier from thread 3 of 4
+After Barrier from thread 0 of 4
+After Barrier from thread 3 of 4
+After Barrier from thread 2 of 4
+After Barrier from thread 1 of 4
+Back in the serial section again
+diffs of 0 = 4971068765
+diffs of 1 = 4971067377
+diffs of 2 = 4971064597
+diffs of 3 = 4971060143
+senseBarrier:: main:: average diff taken = 497
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 5
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 5
+Before Barrier from thread 1 of 5
+Before Barrier from thread 2 of 5
+Before Barrier from thread 3 of 5
+Before Barrier from thread 4 of 5
+After Barrier from thread 2 of 5
+After Barrier from thread 3 of 5
+After Barrier from thread 4 of 5
+After Barrier from thread 1 of 5
+After Barrier from thread 0 of 5
+Back in the serial section again
+diffs of 0 = 9255635911
+diffs of 1 = 9255634517
+diffs of 2 = 9255631932
+diffs of 3 = 9255629738
+diffs of 4 = 9255624823
+senseBarrier:: main:: average diff taken = 925
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 6
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 6
+Before Barrier from thread 1 of 6
+Before Barrier from thread 2 of 6
+Before Barrier from thread 3 of 6
+Before Barrier from thread 4 of 6
+Before Barrier from thread 5 of 6
+After Barrier from thread 2 of 6
+After Barrier from thread 1 of 6
+After Barrier from thread 4 of 6
+After Barrier from thread 3 of 6
+After Barrier from thread 5 of 6
+After Barrier from thread 0 of 6
+Back in the serial section again
+diffs of 0 = 6364169952
+diffs of 1 = 6364169262
+diffs of 2 = 6364166483
+diffs of 3 = 6364164256
+diffs of 4 = 6364161749
+diffs of 5 = 6364157018
+senseBarrier:: main:: average diff taken = 636
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 7
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 7
+Before Barrier from thread 1 of 7
+Before Barrier from thread 2 of 7
+Before Barrier from thread 3 of 7
+Before Barrier from thread 4 of 7
+Before Barrier from thread 5 of 7
+Before Barrier from thread 6 of 7
+After Barrier from thread 4 of 7
+After Barrier from thread 0 of 7
+After Barrier from thread 2 of 7
+After Barrier from thread 3 of 7
+After Barrier from thread 6 of 7
+After Barrier from thread 1 of 7
+After Barrier from thread 5 of 7
+Back in the serial section again
+diffs of 0 = 6867332867
+diffs of 1 = 6867332128
+diffs of 2 = 6867329578
+diffs of 3 = 6867327180
+diffs of 4 = 6867324590
+diffs of 5 = 6867322160
+diffs of 6 = 6867317732
+senseBarrier:: main:: average diff taken = 686
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+=============================================
+openMP_builtIn started with threads 8
+=============================================
+This is the serial section
+Before Barrier from thread 0 of 8
+Before Barrier from thread 1 of 8
+Before Barrier from thread 2 of 8
+Before Barrier from thread 3 of 8
+Before Barrier from thread 4 of 8
+Before Barrier from thread 5 of 8
+Before Barrier from thread 6 of 8
+Before Barrier from thread 7 of 8
+After Barrier from thread 5 of 8
+After Barrier from thread 3 of 8
+After Barrier from thread 1 of 8
+After Barrier from thread 2 of 8
+After Barrier from thread 0 of 8
+After Barrier from thread 4 of 8
+After Barrier from thread 6 of 8
+After Barrier from thread 7 of 8
+Back in the serial section again
+diffs of 0 = 12800449992
+diffs of 1 = 12800449095
+diffs of 2 = 12800446357
+diffs of 3 = 12800443934
+diffs of 4 = 12800441567
+diffs of 5 = 12800438641
+diffs of 6 = 12800436706
+diffs of 7 = 12800431462
+senseBarrier:: main:: average diff taken = 1280
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NUM_THREADS	diff
+0		0
+1		0
+2		412
+3		456
+4		497
+5		925
+6		636
+7		686
+8		1280
+---------------END OF openMP_builtIn-------------
+~
+Removing user rbelagali3 from group authjobs

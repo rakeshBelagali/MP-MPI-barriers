@@ -1,0 +1,22 @@
+open MPI
+
+cd to openMPI folder
+
+To build:
+	make
+
+To clean:
+	make clean
+
+To run:
+	qsub ./wap2.sh  // To run for 2 MPI processes.
+	qsub ./wap4.sh  // To run for 2 MPI processes.
+	qsub ./wap6.sh  // To run for 4 MPI processes.
+	qsub ./wap8.sh  // To run for 8 MPI processes.
+	qsub ./wap10.sh // To run for 10 MPI processes.
+	qsub ./wap12.sh // To run for 12 MPI processes.
+
+
+
+
+

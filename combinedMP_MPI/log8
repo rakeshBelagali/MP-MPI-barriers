@@ -1,0 +1,73 @@
+Before Dessimination Barrier from thread 0 of 8
+Before Dessimination Barrier from thread 2 of 8
+Before Dessimination Barrier from thread 5 of 8
+Before Dessimination Barrier from thread 6 of 8
+Before Dessimination Barrier from thread 1 of 8
+Before Dessimination Barrier from thread 3 of 8
+Before Dessimination Barrier from thread 4 of 8
+Before Dessimination Barrier from thread 7 of 8
+ProcessID=0	ThreadCount	diffMP
+ProcessID=0	2	212
+ProcessID=0	4	1226
+ProcessID=0	6	1576
+ProcessID=0	8	1880
+ProcessID=0	10	2381
+ProcessID=0	12	2636
+After Dessimination Barrier from process 0 of 8, time taken: 0.011198486 
+Time taken to cross Dessimination barrier: 0.011198441 
+ProcessID=6	ThreadCount	diffMP
+ProcessID=6	2	667
+ProcessID=6	4	1179
+ProcessID=6	6	1718
+ProcessID=6	8	2033
+ProcessID=6	10	2449
+ProcessID=6	12	2702
+After Dessimination Barrier from process 6 of 8, time taken: 0.011198451 
+ProcessID=3	ThreadCount	diffMP
+ProcessID=3	2	211
+ProcessID=3	4	1134
+ProcessID=3	6	1557
+ProcessID=3	8	1906
+ProcessID=3	10	2296
+ProcessID=3	12	2536
+After Dessimination Barrier from process 3 of 8, time taken: 0.011198203 
+ProcessID=7	ThreadCount	diffMP
+ProcessID=7	2	210
+ProcessID=7	4	1131
+ProcessID=7	6	1549
+ProcessID=7	8	1892
+ProcessID=7	10	2289
+ProcessID=7	12	2524
+After Dessimination Barrier from process 7 of 8, time taken: 0.011198073 
+ProcessID=4	ThreadCount	diffMP
+ProcessID=4	2	212
+ProcessID=4	4	1125
+ProcessID=4	6	1579
+ProcessID=4	8	1927
+ProcessID=4	10	2323
+ProcessID=4	12	2517
+After Dessimination Barrier from process 4 of 8, time taken: 0.011198256 
+ProcessID=1	ThreadCount	diffMP
+ProcessID=1	2	642
+ProcessID=1	4	1174
+ProcessID=1	6	1731
+ProcessID=1	8	2044
+ProcessID=1	10	2458
+ProcessID=1	12	2703
+After Dessimination Barrier from process 1 of 8, time taken: 0.011198470 
+ProcessID=2	ThreadCount	diffMP
+ProcessID=2	2	213
+ProcessID=2	4	1135
+ProcessID=2	6	1538
+ProcessID=2	8	1893
+ProcessID=2	10	2289
+ProcessID=2	12	2526
+After Dessimination Barrier from process 2 of 8, time taken: 0.011199075 
+ProcessID=5	ThreadCount	diffMP
+ProcessID=5	2	570
+ProcessID=5	4	1271
+ProcessID=5	6	1614
+ProcessID=5	8	1908
+ProcessID=5	10	2388
+ProcessID=5	12	2703
+After Dessimination Barrier from process 5 of 8, time taken: 0.011198512 
